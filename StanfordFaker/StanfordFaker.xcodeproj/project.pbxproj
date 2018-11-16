@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2FA58160219E861E00CEED48 /* where.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA5815F219E861E00CEED48 /* where.swift */; };
 		2FD44E61219E602A00EAAE2B /* ect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD44E60219E602A00EAAE2B /* ect.swift */; };
 		E89C4E25219E5A110005DA73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89C4E24219E5A110005DA73 /* AppDelegate.swift */; };
 		E89C4E27219E5A110005DA73 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89C4E26219E5A110005DA73 /* FirstViewController.swift */; };
@@ -18,7 +17,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2FA5815F219E861E00CEED48 /* where.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = where.swift; sourceTree = "<group>"; };
 		2FD44E60219E602A00EAAE2B /* ect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ect.swift; sourceTree = "<group>"; };
 		E89C4E21219E5A110005DA73 /* StanfordFaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StanfordFaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E89C4E24219E5A110005DA73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -62,14 +60,7 @@
 			children = (
 				E89C4E36219E5BDF0005DA73 /* Model */,
 				E89C4E24219E5A110005DA73 /* AppDelegate.swift */,
-<<<<<<< HEAD
-				E89C4E26219E5A110005DA73 /* FirstViewController.swift */,
-=======
-				E89C4E26219E5A110005DA73 /* ViewController.swift */,
-				2FD44E60219E602A00EAAE2B /* ect.swift */,
->>>>>>> origin/yang
 				E89C4E28219E5A110005DA73 /* Main.storyboard */,
-				2FA5815F219E861E00CEED48 /* where.swift */,
 				E89C4E2B219E5A120005DA73 /* Assets.xcassets */,
 				E89C4E2D219E5A120005DA73 /* LaunchScreen.storyboard */,
 				E89C4E30219E5A120005DA73 /* Info.plist */,
@@ -156,13 +147,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-<<<<<<< HEAD
-				E89C4E38219E5BF80005DA73 /* xmlData.swift in Sources */,
-				E89C4E27219E5A110005DA73 /* FirstViewController.swift in Sources */,
-=======
-				E89C4E27219E5A110005DA73 /* ViewController.swift in Sources */,
+
 				2FA58160219E861E00CEED48 /* where.swift in Sources */,
->>>>>>> origin/yang
 				E89C4E25219E5A110005DA73 /* AppDelegate.swift in Sources */,
 				2FD44E61219E602A00EAAE2B /* ect.swift in Sources */,
 			);
