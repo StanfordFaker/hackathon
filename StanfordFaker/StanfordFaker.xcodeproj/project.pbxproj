@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		E89C4E25219E5A110005DA73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89C4E24219E5A110005DA73 /* AppDelegate.swift */; };
-		E89C4E27219E5A110005DA73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89C4E26219E5A110005DA73 /* ViewController.swift */; };
+		E89C4E27219E5A110005DA73 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89C4E26219E5A110005DA73 /* FirstViewController.swift */; };
 		E89C4E2A219E5A110005DA73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E89C4E28219E5A110005DA73 /* Main.storyboard */; };
 		E89C4E2C219E5A120005DA73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E89C4E2B219E5A120005DA73 /* Assets.xcassets */; };
 		E89C4E2F219E5A120005DA73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E89C4E2D219E5A120005DA73 /* LaunchScreen.storyboard */; };
+		E89C4E38219E5BF80005DA73 /* xmlData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89C4E37219E5BF80005DA73 /* xmlData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E89C4E21219E5A110005DA73 /* StanfordFaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StanfordFaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E89C4E24219E5A110005DA73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E89C4E26219E5A110005DA73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E89C4E26219E5A110005DA73 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		E89C4E29219E5A110005DA73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E89C4E2B219E5A120005DA73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E89C4E2E219E5A120005DA73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E89C4E30219E5A120005DA73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E89C4E37219E5BF80005DA73 /* xmlData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xmlData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,23 @@
 		E89C4E23219E5A110005DA73 /* StanfordFaker */ = {
 			isa = PBXGroup;
 			children = (
+				E89C4E36219E5BDF0005DA73 /* Model */,
 				E89C4E24219E5A110005DA73 /* AppDelegate.swift */,
-				E89C4E26219E5A110005DA73 /* ViewController.swift */,
+				E89C4E26219E5A110005DA73 /* FirstViewController.swift */,
 				E89C4E28219E5A110005DA73 /* Main.storyboard */,
 				E89C4E2B219E5A120005DA73 /* Assets.xcassets */,
 				E89C4E2D219E5A120005DA73 /* LaunchScreen.storyboard */,
 				E89C4E30219E5A120005DA73 /* Info.plist */,
 			);
 			path = StanfordFaker;
+			sourceTree = "<group>";
+		};
+		E89C4E36219E5BDF0005DA73 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E89C4E37219E5BF80005DA73 /* xmlData.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +146,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E89C4E27219E5A110005DA73 /* ViewController.swift in Sources */,
+				E89C4E38219E5BF80005DA73 /* xmlData.swift in Sources */,
+				E89C4E27219E5A110005DA73 /* FirstViewController.swift in Sources */,
 				E89C4E25219E5A110005DA73 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +295,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G4MM77V7NH;
 				INFOPLIST_FILE = StanfordFaker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +313,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G4MM77V7NH;
 				INFOPLIST_FILE = StanfordFaker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
